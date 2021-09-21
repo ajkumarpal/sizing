@@ -6,7 +6,7 @@ section{
     min-height: 88vh;
     display: flex;
     align-items: center;
-    background:url(../img/home1.jpg) no-repeat;
+    background:url(img/home1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -39,22 +39,13 @@ section{
     
 }
 
-/*.btn:hover{
-    letter-spacing: .2rem;
-}*/
-.btn:hover
-{
-    border-radius: 12px;
-    transform: scale3d(1.1, 1.1, 1.1);
-    transition: 0.5s;
+.btn:hover{
+     transform: skew(-10deg);
 }
 
-.btn::after
-{
-    
-    transform: scale3d(1.0, 1.0, 1.0);
-    transition: 0.5s;
-}
+
+
+
 .footer{
     background:#282727;
     padding:1rem 7%;
@@ -88,6 +79,7 @@ section{
     color:#eee;
     padding:1rem 0;
     display: block;
+    text-decoration: none;
 }
 
 .footer .box-container .box a:hover{
@@ -197,4 +189,30 @@ section{
         font-size: 50%;
     }
 
+}
+ section{
+        /*padding-right:13rem;*/
+        /* It's working padding and error at the image of our clients
+        padding-right:13rem;*/
+        /*===============================================*/
+        padding: 5%;
+    padding-right: 13rem;
+    padding-left: 13%;
+    }
+
+}
+.row h2{
+  font-family: WulkanDisplay,serif;
+  font-weight: 400;
+  
+  
+}
+.heading{
+  font-family: WulkanDisplay,serif;
+}
+.content h3{
+  font-family: WulkanDisplay,serif;
+}
+.c h3{
+  font-family: WulkanDisplay,serif;
 }
