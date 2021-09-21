@@ -1,0 +1,103 @@
+/*rorate*/
+/* For Club Page*/
+
+.circle-container {
+  width: 26em;
+  height: 26em;
+  margin: 15em auto 0em;
+}
+.circle-item {
+  list-style: none;
+}
+.circle-item > li > img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: solid 0px #0196c1;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.circle-item img:hover {
+  box-shadow: 0 4px 8px 0 #0196c1;
+}
+
+.circle-item > li:last-child > img {
+  width: 9em;
+  height: 9em;
+}
+.circle-item + h2 {
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+.circle-item > *:nth-of-type(1) {
+  transform: rotate(0deg) translate(9em) rotate(0deg);
+}
+.circle-item > *:nth-of-type(2) {
+  transform: rotate(51deg) translate(9em) rotate(-51deg);
+}
+.circle-item > *:nth-of-type(3) {
+  transform: rotate(102deg) translate(9em) rotate(-102deg);
+}
+.circle-item > *:nth-of-type(4) {
+  transform: rotate(153deg) translate(9em) rotate(-153deg);
+}
+.circle-item > *:nth-of-type(5) {
+  transform: rotate(204deg) translate(9em) rotate(-204deg);
+}
+.circle-item > *:nth-of-type(6) {
+  transform: rotate(255deg) translate(9em) rotate(-255deg);
+}
+.circle-item > *:nth-of-type(7) {
+  transform: rotate(306deg) translate(9em) rotate(-306deg);
+}
+.circle-item > *:nth-of-type(8) {
+  transform: rotate(228deg) translate(3em) rotate(-228deg);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ .skill-sec 
+ {
+  margin-left: -8%;
+ }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .skill-sec 
+ {
+  margin-left: -8%;
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .skill-sec 
+ {
+  margin-left: -8%;
+ }
+} 
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .skill-sec 
+ {
+  margin-left: -1%;
+ }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .skill-sec 
+ {
+  margin-left: -1%;
+ }
+}
