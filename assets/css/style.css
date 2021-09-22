@@ -4,7 +4,7 @@
 .circle-container {
   width: 26em;
   height: 26em;
-  margin: 15em auto 0em;
+  margin: 12em auto -18em;
 }
 .circle-item {
   list-style: none;
@@ -63,6 +63,18 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .home
+  {
+    min-height: 23vh;
+  }
+ #connect
+ {
+  display:  none;
+ }
+ #testimonial
+ {
+  display:  none;
+ }
  .skill-sec 
  {
   margin-left: -8%;
@@ -71,6 +83,8 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
+
   .skill-sec 
  {
   margin-left: -8%;
@@ -79,6 +93,8 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
+ 
   .skill-sec 
  {
   margin-left: -8%;
