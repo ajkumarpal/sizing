@@ -142,6 +142,7 @@ section{
     #menu-btn{
         display: inline-block;
     }
+    
 
     .header .navbar{
         position: absolute;
@@ -201,7 +202,7 @@ section{
     padding-left: 13%;
     }
 
-}
+
 .row h2{
   font-family: WulkanDisplay,serif;
   font-weight: 400;
@@ -261,4 +262,16 @@ input[type=number]:focus,
 #myBtn:hover {
     margin-bottom: 0.5%;
   background-color: #555;
+}
+.c-image{
+    border-radius:50%;
+    height:148px;
+    
+    margin-left:35%;
+    margin-bottom: 20%;
+}
+
+.carousel-caption
+{
+    margin-top: 15%;
 }

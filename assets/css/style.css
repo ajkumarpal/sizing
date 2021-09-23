@@ -63,6 +63,14 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .carousel-indicators
+  {
+    margin-bottom: -15%;
+  }
+  .c-image
+  {
+    display: none;
+  }
   .home
   {
     min-height: 23vh;
@@ -83,7 +91,10 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+  .carousel-indicators
+  {
+    margin-bottom: -8%;
+  }
 
   .skill-sec 
  {
@@ -116,4 +127,8 @@
  {
   margin-left: -1%;
  }
+}
+.slider-text
+{
+  text-align: center;
 }
